@@ -1,12 +1,12 @@
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button } from 'react-native';
 
-export default function HomeScreen({ navigation }) {
+export default function DetalhesScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Tela Inicial</Text>
+      <Text style={styles.titulo}>Tela de Detalhes</Text>
       <Button
-        title="Ir para Detalhes"
-        onPress={() => navigation.navigate('Detalhes')}
+        title="Ir para Perfil"
+        onPress={() => navigation.navigate('Perfil')}
       />
     </View>
   );
