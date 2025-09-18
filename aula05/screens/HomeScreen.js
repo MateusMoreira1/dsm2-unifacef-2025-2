@@ -8,7 +8,6 @@ export default function HomeScreen({ navigation }) {
       <Text style={styles.texto}>Página Inicial</Text>
       <FontAwesome name="star" size={30} color="gold" style={{ margin: 10 }} />
       <Image source={require('../assets/logo.png')} style={styles.imagem} />
-      {/* Item readicionado conforme solicitado */}
       <Image
         source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
         style={{ width: 100, height: 100 }}
